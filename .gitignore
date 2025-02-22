@@ -1,0 +1,25 @@
+# Ignore build files and compiled classes
+target/
+bin/
+
+# Ignore IDE-specific and project-specific config files
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven wrapper properties (optional, since mvnw is included)
+.mvn/wrapper/maven-wrapper.properties
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore sensitive configuration files
+src/main/resources/application.properties
